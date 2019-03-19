@@ -1,4 +1,4 @@
-# Sitegeist Neos Best Practices
+# Sitegeist - Neos Best Practices
 
 The following best practices and rules are used by sitegeist internally for our Neos projects. They combine the learnings we accumulated by creating medium and large scale Neos projects. *This rules are not mandatory for anyone outside of sitegeist and may even be a bad idea for smaller projects.*
 
@@ -13,7 +13,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 ### Project Setup
 
 - The Neos Best-Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html
-  are mandatory.
+  MUST be respected.
 
 ## Contribution
 
