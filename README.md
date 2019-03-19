@@ -10,10 +10,16 @@ These rules apply to all new projects and all refactorings and new fetures that 
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119. https://www.ietf.org/rfc/rfc2119.txt
 
-### Project Setup
+### General
 
-- The Neos Best-Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html
-  MUST be respected.
+1. The Neos Best-Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html
+   MUST be respected.
+
+### NodeTypes
+
+### Fusion
+
+### Frontend
 
 ## Contribution
 
