@@ -12,7 +12,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### General
 
-1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html
+1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html 
    MUST be respected.
 
 ### NodeTypes
