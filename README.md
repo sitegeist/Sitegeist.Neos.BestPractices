@@ -17,7 +17,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 2. Image rendering SHOULD be implemented with [Sitegeist.Kaleidoscope](https://github.com/sitegeist/Sitegeist.Kaleidoscope) 
    and [Sitegeist.Lazybones](https://github.com/sitegeist/Sitegeist.Lazybones) from the start.
-   It is vary costly integrate this later.
+   While the responsove behavior MAY be defined later or not be used at all it is very costly 
+   and error prove to integrate these packages later.
 
 ### NodeTypes
 
