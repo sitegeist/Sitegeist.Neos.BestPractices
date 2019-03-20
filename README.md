@@ -15,6 +15,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html 
    MUST be respected.
 
+2. Image rendering SHOULD be implemented with [Sitegeist.Kaleidoscope](https://github.com/sitegeist/Sitegeist.Kaleidoscope) 
+   and [Sitegeist.Lazybones](https://github.com/sitegeist/Sitegeist.Lazybones) from the start.
+   It is vary costly integrate this later.
+
 ### NodeTypes
 
 ### Fusion
