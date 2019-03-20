@@ -23,8 +23,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ## Contribution
 
-- Please send us pull requests against this file
-- Use englisch language
-- Rules have to be short and precise
-- Rules have to be verifyable
-- Rules have to apply to the majority of Neos projects
+Please send us pull requests (if you want to suggest a concrete rule) or open issues in this repository if you have a suggestion but no clear wording yet.
+
+- Rules MUST uss englisch language
+- Rules MUST be short, precise and verifyable
+- Rules MUST apply to the majority of Neos projects
