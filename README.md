@@ -12,7 +12,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### General
 
-1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html MUST be respected.
+1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html 
+   MUST be respected.
 
 ### NodeTypes
 
@@ -24,6 +25,6 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 Please send us pull requests (if you want to suggest a concrete rule) or open issues if you have a suggestion but no clear wording yet. Make sure to look for duplicates before creating a new issue/pr.
 
-- Rules MUST use Englisch language
+- Rules MUST use English language
 - Rules MUST be short, precise and verifiable
 - Rules MUST apply to the majority of Neos projects
