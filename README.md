@@ -4,7 +4,7 @@ The following best practices and rules are used by sitegeist internally for our 
 
 The recommendation we are giving here do not mean that things cannot be done differently, there are valid reasons to deviate from those guidelines. Deviations MUST be coordinated with the project leads and SHOULD be documented.
 
-These rules apply to all new projects, all refactorings and new fetures that are implemented in existing projects. For bugfixes and minor adjustments it is up to the developer to decide wether it is possible to improve the compliance of the project to the best practices.
+These rules apply to all new projects, all refactorings and new features that are implemented in existing projects. For bugfixes and minor adjustments it is up to the developer to decide whether it is possible to improve the compliance of the project to the best practices.
 
 ## Rules 
 
@@ -12,7 +12,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### General
 
-1. The Neos Best-Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html
+1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html
    MUST be respected.
 
 ### NodeTypes
@@ -25,6 +25,6 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 Please send us pull requests (if you want to suggest a concrete rule) or open issues if you have a suggestion but no clear wording yet. Make sure to look for duplicates before creating a new issue/pr.
 
-- Rules MUST uss englisch language
-- Rules MUST be short, precise and verifyable
+- Rules MUST use English language
+- Rules MUST be short, precise and verifiable
 - Rules MUST apply to the majority of Neos projects
