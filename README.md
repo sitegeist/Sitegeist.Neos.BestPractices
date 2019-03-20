@@ -23,7 +23,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ## Contribution
 
-Please send us pull requests (if you want to suggest a concrete rule) or open issues in this repository if you have a suggestion but no clear wording yet.
+Please send us pull requests (if you want to suggest a concrete rule) or open issues if you have a suggestion but no clear wording yet. Make sure to look for duplicates before creating a new issue/pr.
 
 - Rules MUST uss englisch language
 - Rules MUST be short, precise and verifyable
