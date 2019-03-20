@@ -19,6 +19,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### Fusion
 
+1. Integration components MUST NOT contain markup.
+
+2. Presentation components MUST NOT use domain entities (e.g. and foremost node).
+
 ### Frontend
 
 ## Contribution
