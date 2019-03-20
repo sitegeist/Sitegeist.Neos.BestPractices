@@ -19,7 +19,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### Fusion
 
-1. Presentation and Integration SHOULD be handled seperately in different folder.
+1. Presentation and Integration SHOULD be handled seperately in different folders.
 
 2. Integration components MUST NOT contain markup.
 
