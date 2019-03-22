@@ -17,6 +17,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### NodeTypes
 
+1. The configurations for inline editor options MUST be centralized and limited to. 
+   This can be done by using Mixins or by using the 
+   [Sitegeist.Silhouettes](https://github.com/sitegeist/Sitegeist.Silhouettes) package. 
+
 ### Fusion
 
 ### Frontend
