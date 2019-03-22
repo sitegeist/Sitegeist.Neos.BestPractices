@@ -15,6 +15,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html 
    MUST be respected.
 
+2. For classification and aggregation of nodes the package [Sitegeist.Taxonomy](https://github.com/sitegeist/Sitegeist.Taxonomy) 
+   SHOULD be used. 
+
 ### NodeTypes
 
 ### Fusion
