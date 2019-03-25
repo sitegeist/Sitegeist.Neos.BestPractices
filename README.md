@@ -25,6 +25,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 3. Presentation components MUST NOT use domain entities (e.g. and foremost node).
 
+4. Presentation components MUST be tested in isolation. It is RECOMMENDET to use the 
+   [Sitegeist.Monocle](https://github.com/sitegeist/Sitegeist.Monocle) styleguide to do so.
+
 ### Frontend
 
 ## Contribution
