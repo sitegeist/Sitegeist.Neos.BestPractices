@@ -23,7 +23,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 2. Integration components MUST NOT contain markup.
 
-3. Presentation components MUST NOT use domain entities (e.g. and foremost node).
+3. Presentation components MUST NOT use domain entities and informations. This includes acessing
+   informations from nodes and context informations like inBackend.
 
 4. Presentation components MUST be tested in isolation. It is RECOMMENDET to use the 
    [Sitegeist.Monocle](https://github.com/sitegeist/Sitegeist.Monocle) styleguide to do so.
