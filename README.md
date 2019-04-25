@@ -15,6 +15,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html 
    MUST be respected.
 
+6. The different environments of a project MUST be easyly distinguishable. 
+   The RECOMMENDED way to achieve this is a title prefix  like "DEV" or "Stage" for non-live environments.
+   
 ### NodeTypes
 
 ### Fusion
