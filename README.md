@@ -19,6 +19,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### Fusion
 
+6. To mock complex data structures for the styleguide the `*.Fixtures` namespace is RECOMMENDED.
+   Components that only need sections of larger Fixtures MAY use @process-rules for partial access.
+   
 ### Frontend
 
 ## Contribution
