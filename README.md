@@ -15,6 +15,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html 
    MUST be respected.
 
+5. Projects SHOULD be started with the [Sitegeist Neos Base Distribution](https://github.com/sitegeist/sitegeist-neos-base-distribution)
+
 ### NodeTypes
 
 ### Fusion
