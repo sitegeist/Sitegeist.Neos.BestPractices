@@ -19,6 +19,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### Fusion
 
+7. Presentational components that cannot be previewed standalone MAY provide a `*.Preview` prototype.
+
 ### Frontend
 
 ## Contribution
