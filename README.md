@@ -17,6 +17,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### NodeTypes
 
+3. Nodes necessary for proper rendering like 404 documents or navigation collections SHOULD be defined as autocreated childNodes with a dedicated NodeType.
+   
 ### Fusion
 
 ### Frontend
