@@ -15,10 +15,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html 
    MUST be respected.
 
-2. Image rendering SHOULD be implemented with [Sitegeist.Kaleidoscope - Responsive Images](https://github.com/sitegeist/Sitegeist.Kaleidoscope) 
-   and [Sitegeist.Lazybones - Lazy Loading](https://github.com/sitegeist/Sitegeist.Lazybones) from the start. 
-   While the responsive behavior MAY be defined later or not at all it is costly and error prone to integrate 
-   these packages later.
+
 
 ### NodeTypes
 
@@ -26,6 +23,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### Frontend
 
+1. Image rendering SHOULD be implemented with [Sitegeist.Kaleidoscope - Responsive Images](https://github.com/sitegeist/Sitegeist.Kaleidoscope) and [Sitegeist.Lazybones - Lazy Loading](https://github.com/sitegeist/Sitegeist.Lazybones) from the start. 
+   While the responsive behavior MAY be defined later or not at all it is costly and error prone to integrate these packages later.
 ## Contribution
 
 Please send us pull requests (if you want to suggest a concrete rule) or open issues if you have a suggestion but no clear wording yet. Make sure to look for duplicates before creating a new issue/pr.
