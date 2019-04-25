@@ -21,12 +21,15 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 1. Presentation and Integration SHOULD be handled seperately in different folders.
 
-2. Integration components MUST NOT contain markup.
+2. Integration components SHOULD NOT contain markup.
 
-3. Presentation components MUST NOT use domain entities and informations. This includes acessing
-   informations from nodes and context informations like inBackend.
+3. Presentation components MUST NOT use domain entities and informations.
 
-4. Presentation components MUST be tested in isolation. It is RECOMMENDET to use the 
+4. The API of presentational components MUST describe the expected behavior. 
+   Especially the `inBackend` flag MUST NOT be used. It is RECOMMENDED to use 
+   behavior describing flags like `suppressLink` instead.
+
+5. Presentation components MUST be tested in isolation. It is RECOMMENDED to use the 
    [Sitegeist.Monocle](https://github.com/sitegeist/Sitegeist.Monocle) styleguide to do so.
 
 ### Frontend
