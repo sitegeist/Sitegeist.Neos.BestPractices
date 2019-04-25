@@ -15,6 +15,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html 
    MUST be respected.
 
+4. Each project MUST provide an easy way to fetch the current data from the server [Sitegeist.MagicWand](https://github.com/sitegeist/Sitegeist.MagicWand) is RECOMMENDED for this as dev dependency.
+   
 ### NodeTypes
 
 ### Fusion
