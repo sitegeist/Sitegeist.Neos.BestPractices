@@ -17,6 +17,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### NodeTypes
 
+2. All NodeTypes SHOULD be in the project Namespace especially `Neos.Neos:Page` and `Neos.Neos:Shortcut` 
+   SHOULD be used indirectly as superTypes for project nodeTypes to have full control over all constraints.
+   
 ### Fusion
 
 ### Frontend
