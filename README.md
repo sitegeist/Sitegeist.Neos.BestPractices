@@ -19,17 +19,17 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### Fusion
 
-1. Presentation and Integration SHOULD be handled seperately in different folders.
+1. Presentation and integration SHOULD be handled seperately in different folders.
 
 2. Integration components SHOULD NOT contain markup.
 
-3. Presentation components MUST NOT use domain entities and informations.
+3. Presentation components MUST NOT use domain entities and information.
 
 4. The API of presentational components MUST describe the expected behavior. 
    Especially the `inBackend` flag MUST NOT be used. It is RECOMMENDED to use 
    behavior describing flags like `suppressLink` instead.
 
-5. Presentation components MUST be tested in isolation. It is RECOMMENDED to use the 
+5. Presentation components MUST be tested in isolation from the integration. It is RECOMMENDED to use the 
    [Sitegeist.Monocle](https://github.com/sitegeist/Sitegeist.Monocle) styleguide to do so.
 
 ### Frontend
