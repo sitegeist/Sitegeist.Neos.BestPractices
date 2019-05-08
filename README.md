@@ -17,6 +17,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### NodeTypes
 
+1. NodeTypes SHOULD use reasonable groups, icons and labels to distinguish the elements from each other (e.g. structural vs content elements). Content elements that are allowed to exist in the tree but should not be available to the user MUST NOT be visible. This MAY be achieved via constraint (RECOMMENDED), policy, non-existent groups or by declaring legacy-nodetypes abstract.
+
 ### Fusion
 
 ### Frontend
