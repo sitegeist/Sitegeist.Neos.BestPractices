@@ -51,6 +51,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 5. Presentation components MUST be tested in isolation from the integration. It is RECOMMENDED to use the 
    [Sitegeist.Monocle](https://github.com/sitegeist/Sitegeist.Monocle) styleguide to do so.
 
+7. Presentational components that cannot be previewed standalone MAY provide a `*.Preview` prototype.
+
 ### Frontend
 
 1. All frontend components SHOULD be tested in isolation and on a dummy page in the styleguide. 
