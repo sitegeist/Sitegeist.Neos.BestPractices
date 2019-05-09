@@ -17,6 +17,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
    
 2. If possible, models SHOULD be based on the data models provided by schema.org. This allows you to stick to common conventions and makes it easy for you to render JSON-LD tags used by search engines.   
 
+3. All projects MUST contain a Makefile and implement the cli-commands `make install`, `make build`, `make up` and `make down`.
+   It is RECOMMENDED to also implement `make watch`, `make lint`, `make test` and `make deploy-*`.
+
 2. For a better overview of the settings made, it is RECOMMENDED to place larger sections in separate files corresponding to the respective topic, e.g. 'Settings.Monocle.yaml' or 'Settings.Search.yaml'.
 
 4. Each project MUST provide an easy way to fetch the current data from the server [Sitegeist.MagicWand](https://github.com/sitegeist/Sitegeist.MagicWand) is RECOMMENDED for this as dev dependency.
