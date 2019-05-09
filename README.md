@@ -58,8 +58,11 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### Frontend
 
-1. All frontend components SHOULD be tested in isolation and on a dummy page in the styleguide. 
+1. All frontend components SHOULD be tested in isolation and on a dummy page in the styleguide.
    Those dummy pages in the styleguide are useful for acceptance and help to spot component-margin issues.
+
+2. It MUST be ensured that visitors get fresh css and js resources after each deployment. The [Sitegeist.KlarSchiff](https://github.com/sitegeist/Sitegeist.KlarSchiff) package is the RECOMMENDED way for this.
+
 
 ## Contribution
 
