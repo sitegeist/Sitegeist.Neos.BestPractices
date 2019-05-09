@@ -39,6 +39,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 2. All NodeTypes SHOULD be in the project Namespace especially `Neos.Neos:Page` and `Neos.Neos:Shortcut`
    SHOULD be used indirectly as superTypes for project nodeTypes to have full control over all constraints.
    
+1. The configurations for inline editor options MUST be centralized for a consistent editing experience and a limited number of variants.
+   This MAY be done by using Mixins or by using the [Sitegeist.Silhouettes](https://github.com/sitegeist/Sitegeist.Silhouettes) package. 
+
 ### Fusion
 
 1. Presentation and integration SHOULD be handled seperately in different folders.
