@@ -42,6 +42,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 1. If possible, models SHOULD be based on the data models provided by schema.org. This allows you to stick to common conventions and makes it easy for you to render JSON-LD tags used by search engines.
 
+1. NodeType-Constraints MUST be used to ensure that editors can only insert contents and documents where they possibly make sense.
+
 1. For classification and aggregation of nodes the package [Sitegeist.Taxonomy](https://github.com/sitegeist/Sitegeist.Taxonomy) SHOULD be used.
 
 ### Fusion
