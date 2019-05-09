@@ -17,6 +17,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### NodeTypes
 
+1. It is RECOMMENDED to use a dedicated NodeType for the site-node. This allows to add site-settings to the inspector, control the rendering and define important documents as autocreated childnodes.
+
 ### Fusion
 
 ### Frontend
