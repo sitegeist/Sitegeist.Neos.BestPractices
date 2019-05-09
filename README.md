@@ -14,16 +14,18 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html MUST be respected.
    
-2. All projects MUST contain a Makefile and implement the cli-commands `make install`, `make build`, `make up` and `make down`.
-   It is RECOMMENDED to also implement `make watch`, `make lint`, `make test` and `make deploy-*`.
+2. All projects MUST contain a Makefile and implement the cli-commands `make install`,` `make build`, `make up` and `make down`.
+   It is RECOMMENDED to also implement `make watch`, `make lint`, `make test`, `make cleanup` and `make deploy-*`.
 
 3. Projects SHOULD be started with the [Sitegeist Neos Base Distribution](https://github.com/sitegeist/sitegeist-neos-base-distribution)
 
-4. For a better overview of the settings made, it is RECOMMENDED to place larger sections in separate files corresponding to the respective topic, e.g. 'Settings.Monocle.yaml' or 'Settings.Search.yaml'.
+4. For a better overview of the settings made, it is RECOMMENDED to place larger sections in separate files corresponding to the respective topic, e.g. `Settings.Monocle.yaml` or `Settings.Search.yaml`.
 
-5. Each project MUST provide an easy way to fetch the current data from the server [Sitegeist.MagicWand](https://github.com/sitegeist/Sitegeist.MagicWand) is RECOMMENDED for this as dev dependency.
+5. Each project MUST provide an automated way to fetch the current data from the server [Sitegeist.MagicWand](https://github.com/sitegeist/Sitegeist.MagicWand) is RECOMMENDED for this as dev dependency.
 
-6. The different environments of a project MUST be easily distinguishable. This MAY be achieved with visual hints (CSS) or a title prefixes like "DEV" or "Stage" for non-live environments.
+6. Each project MUST provide an automated way to deploy the current state to the server. Deployer is a RECOMMENDED tool for this but other solutions are also valid.
+
+7. The different environments of a project MUST be easily distinguishable. This MAY be achieved with visual hints (CSS) or a title prefixes like "DEV" or "Stage" for non-live environments.
 
 ### NodeTypes
 
