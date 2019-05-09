@@ -26,7 +26,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 1. Each project MUST provide an automated way to deploy the current state to the server. Deployer is a RECOMMENDED tool for this but other solutions are also valid.
 
-1. The different environments of a project MUST be easily distinguishable. This MAY be achieved with visual hints (CSS) or a title prefixes like "DEV" or "Stage" for non-live environments.
+1. The different environments of a project MUST be easily distinguishable. This MAY be achieved with visual hints (CSS) or a title prefix like "DEV" or "Stage" for non-live environments.
 
 ### NodeTypes
 
