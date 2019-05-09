@@ -29,6 +29,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### Frontend
 
+1. All frontend components SHOULD be tested in isolation and on a dummy page in the styleguide. 
+   Those dummy pages in the styleguide are useful for acceptance and help to spot component-margin issues.
+
 ## Contribution
 
 Please send us pull requests (if you want to suggest a concrete rule) or open issues if you have a suggestion but no clear wording yet. Make sure to look for duplicates before creating a new issue/pr.
