@@ -33,6 +33,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 3. Nodes necessary for proper rendering like 404 documents or navigation collections SHOULD be defined as autocreated childNodes with a dedicated NodeType.
 
+2. All NodeTypes SHOULD be in the project Namespace especially `Neos.Neos:Page` and `Neos.Neos:Shortcut`
+   SHOULD be used indirectly as superTypes for project nodeTypes to have full control over all constraints.
+   
 ### Fusion
 
 1. Presentation and integration SHOULD be handled seperately in different folders.
