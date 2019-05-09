@@ -63,6 +63,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 2. It MUST be ensured that visitors get fresh css and js resources after each deployment. The [Sitegeist.KlarSchiff](https://github.com/sitegeist/Sitegeist.KlarSchiff) package is the RECOMMENDED way for this.
 
+3. Image rendering SHOULD be implemented with [Sitegeist.Kaleidoscope - Responsive Images](https://github.com/sitegeist/Sitegeist.Kaleidoscope) and [Sitegeist.Lazybones - Lazy Loading](https://github.com/sitegeist/Sitegeist.Lazybones) from the start.
+   While the responsive behavior MAY be defined later or not at all it is costly and error prone to integrate these packages later.
 
 ## Contribution
 
