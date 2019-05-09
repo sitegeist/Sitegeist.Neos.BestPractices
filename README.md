@@ -19,6 +19,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 2. For a better overview of the settings made, it is RECOMMENDED to place larger sections in separate files corresponding to the respective topic, e.g. 'Settings.Monocle.yaml' or 'Settings.Search.yaml'.
 
+6. The different environments of a project MUST be easyly distinguishable. This MAY be achived with visual hints (CSS) or a title prefixes like "DEV" or "Stage" for non-live environments.
+   
 ### NodeTypes
 
 1. It is RECOMMENDED to use a dedicated NodeType for the site-node. This allows to add site-settings to the inspector, control the rendering and define important documents as autocreated childnodes.
