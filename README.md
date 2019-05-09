@@ -19,6 +19,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 2. For a better overview of the settings made, it is RECOMMENDED to place larger sections in separate files corresponding to the respective topic, e.g. 'Settings.Monocle.yaml' or 'Settings.Search.yaml'.
 
+5. Projects SHOULD be started with the [Sitegeist Neos Base Distribution](https://github.com/sitegeist/sitegeist-neos-base-distribution)
+
 6. The different environments of a project MUST be easyly distinguishable. This MAY be achived with visual hints (CSS) or a title prefixes like "DEV" or "Stage" for non-live environments.
    
 ### NodeTypes
