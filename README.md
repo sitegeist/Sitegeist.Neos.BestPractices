@@ -51,6 +51,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 5. Presentation components MUST be tested in isolation from the integration. It is RECOMMENDED to use the 
    [Sitegeist.Monocle](https://github.com/sitegeist/Sitegeist.Monocle) styleguide to do so.
 
+6. To mock complex data structures for the styleguide the `*.Fixtures` namespace is RECOMMENDED.
+   Components that only need sections of larger Fixtures MAY use @process-rules for partial access.
+
 7. Presentational components that cannot be previewed standalone MAY provide a `*.Preview` prototype.
 
 ### Frontend
