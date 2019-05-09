@@ -14,8 +14,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 1. The Neos Best Practices as described in https://www.neos.io/blog/neos-best-practices-1-0.html MUST be respected.
 
-1. All projects MUST contain a Makefile and implement the cli-commands `make install`,` `make build`, `make up` and `make down`.
-   It is RECOMMENDED to also implement `make watch`, `make lint`, `make test`, `make cleanup` and `make deploy-*`.
+1. All projects MUST contain a Makefile and implement the cli-commands `make install`,` `make build`, `make up` and `make down`. It is RECOMMENDED to also implement `make watch`, `make lint`, `make test`, `make cleanup` and `make deploy-*`.
 
 1. All projects MUST contain a Readme with a short description and the urls for the various stages and all essential tasks that are not automated via `make`.
 
