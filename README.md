@@ -42,7 +42,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 1. If possible, models SHOULD be based on the data models provided by schema.org. This allows you to stick to common conventions and makes it easy for you to render JSON-LD tags used by search engines.
 
-1. NodeType-Constraints MUST be used to ensure that editors can only insert contents and documents where they possibly make sense.
+1. NodeType constraints MUST be used to ensure that editors can only insert contents and documents where they possibly make sense.
 
 1. For classification and aggregation of nodes the package [Sitegeist.Taxonomy](https://github.com/sitegeist/Sitegeist.Taxonomy) SHOULD be used.
 
@@ -52,19 +52,19 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 1. Integration components SHOULD NOT contain markup.
 
-1. Presentation components MUST NOT use domain entities and information.
+1. Presentational components MUST NOT use domain entities and information.
 
 1. The API of presentational components MUST describe the expected behavior. Especially the `inBackend` flag MUST NOT be used. It is RECOMMENDED to use behavior describing flags like `suppressLink` instead.
 
-1. Presentation components MUST be tested in isolation from the integration. It is RECOMMENDED to use the  [Sitegeist.Monocle](https://github.com/sitegeist/Sitegeist.Monocle) styleguide to do so.
+1. Presentational components MUST be tested in isolation from the integration. It is RECOMMENDED to use the  [Sitegeist.Monocle](https://github.com/sitegeist/Sitegeist.Monocle) styleguide to do so.
 
-1. To mock complex data structures for the styleguide the `*.Fixtures` namespace is RECOMMENDED. Components that only need sections of larger Fixtures MAY use @process-rules for partial access.
+1. To mock complex data structures for the styleguide the `*.Fixtures` namespace is RECOMMENDED. Components that only need sections of larger fixtures MAY use @process-rules for partial access.
 
 1. Presentational components that cannot be previewed standalone MAY provide a `*.Preview` prototype.
 
 ### Frontend
 
-1. All frontend components SHOULD be tested in isolation AND on a dummy page in the styleguide. Those dummy pages in the styleguide are useful for acceptance (customer and pm) and help to spot component-margin issues.
+1. All frontend components SHOULD be tested in isolation and on a dummy page in the styleguide. Those dummy pages in the styleguide are useful for acceptance (customer and PM) and help to spot component-margin issues.
 
 1. It MUST be ensured that visitors get fresh css and js resources after each deployment. The [Sitegeist.KlarSchiff](https://github.com/sitegeist/Sitegeist.KlarSchiff) package is the RECOMMENDED way for this.
 
