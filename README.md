@@ -56,7 +56,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 1. Presentational components MUST NOT use domain entities and information.
 
-1. The API of presentational components MUST describe the expected behavior. Especially the `inBackend` flag MUST NOT be used. It is RECOMMENDED to use behavior describing flags like `suppressLink` instead.
+1. The API of presentational components MUST describe the expected behavior. Especially the `inBackend` flag MUST NOT be used. It is RECOMMENDED to use behavior describing flags like `hasLink` instead.
 
 1. Presentational components MUST be tested in isolation from the integration. It is RECOMMENDED to use the  [Sitegeist.Monocle](https://github.com/sitegeist/Sitegeist.Monocle) styleguide to do so.
 
